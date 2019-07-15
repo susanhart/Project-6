@@ -1,5 +1,5 @@
 var express = require("express");
-var data = require("data.json");
+var data = require("./data.json");
 const app = express();
 
 //Setting up the middleware
@@ -12,7 +12,7 @@ app.use('/static', express.static('public'));
 //Setting the routes
 //An "index" route (/) to render the "Home" page with the locals set to data.projects
 app.get('/', (req, res) => {
-    res.render('index', {projects});
+    res.render('index', {'projects': data.projects});
 });
 
 //An "about" route (/about) to render the "About" page
