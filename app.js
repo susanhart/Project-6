@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
 //An "about" route (/about) to render the "About" page
 app.get('/about', (req, res) => {
-    res.render('about');
+    res.render('about', {"data": "cat"});
 });
 
 //Dynamic "project" routes (/project or /projects) based on the id of the project that render a customized version of the Pug project template to show off each project.
