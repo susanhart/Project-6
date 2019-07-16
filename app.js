@@ -1,5 +1,7 @@
-var express = require("express");
-var data = require("./data.json");
+//Global variables for the dependencies
+const data = require("./data.json");
+const express = require("express");
+const projects = data.projects
 const app = express();
 
 //Setting up the middleware
@@ -12,19 +14,19 @@ app.use('/static', express.static('public'));
 //Setting the routes
 //An "index" route (/) to render the "Home" page with the locals set to data.projects
 app.get('/', (req, res) => {
-    res.render('index', {'projects': data.projects});
+    res.render("index", { projects });
 });
 
 //An "about" route (/about) to render the "About" page
 app.get('/about', (req, res) => {
-    res.render('about', {"data": "cat"});
+    res.render('about');
 });
 
 //Dynamic "project" routes (/project or /projects) based on the id of the project that render a customized version of the Pug project template to show off each project.
 app.get('/projects/:id', (req, res) => {
     const {id} = req.params;
     const project = projects[id];
-    if (isNaN(id) || id >= projects.length) {
+    if (isNaN(id) || id > projects.length) {
         return res.redirect('/');
     }
     res.render('projects', {project});
