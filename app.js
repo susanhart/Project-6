@@ -1,11 +1,11 @@
 //Global variables for the dependencies
-const data = require("./data.json");
+const data = require("./data");
 const express = require("express");
 const projects = data.projects
 const app = express();
 
 //Setting up the middleware
-//Setting the view engine to pug
+//Setting up the view engine to pug
 app.set("view engine", "pug");
 
 //Using a static route and the express.static method to serve the static files located in the public folder
@@ -14,7 +14,7 @@ app.use('/static', express.static('public'));
 //Setting the routes
 //An "index" route (/) to render the "Home" page with the locals set to data.projects
 app.get('/', (req, res) => {
-    res.render("index", { projects });
+    res.render("index", { data: data.projects });
 });
 
 //An "about" route (/about) to render the "About" page
