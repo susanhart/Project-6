@@ -2,46 +2,46 @@
     {
         "id": 0,
         "project_name": "Project 1",
-        "Description": "Random Quote Generator",
-        "Technologies": ["HTML", "CSS", "JavaScript"],
-        "Live_Link": "https://susanhart.github.io/Project-1/",
-        "GitHub_Link": "https://github.com/susanhart/Project-1",
-        "Image_urls": ["../images/Project 1-A.png", "../images/Project 1-B.png"]
+        "description": "Random Quote Generator",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://susanhart.github.io/Project-1/",
+        "github_link": "https://github.com/susanhart/Project-1",
+        "image_urls": ["../images/Project 1-A.png", "../images/Project 1-B.png"]
     },
     {
         "id": 1,
         "project_name": "Project 2",
-        "Description": "List Filter and Pagination",
-        "Technologies": ["HTML", "CSS", "JavaScript"],
-        "Live_Link": "https://susanhart.github.io/Project-2-/",
-        "GitHub_Link": "https://github.com/susanhart/Project-2-",
-        "Image_urls": ["../images/Project 2 first page.png", "../images/Project 2 last page.png"]
+        "description": "List Filter and Pagination",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://susanhart.github.io/Project-2-/",
+        "github_link": "https://github.com/susanhart/Project-2-",
+        "image_urls": ["../images/Project 2 first page.png", "../images/Project 2 last page.png"]
     },
     {
         "id": 2,
         "project_name": "Project 3",
-        "Description": "Interactive Form",
-        "Technologies": ["HTML", "CSS", "JavaScript"],
-        "Live_Link": "https://susanhart.github.io/Project-3/",
-        "GitHub_Link": "https://github.com/susanhart/Project-3",
-        "Image_urls": ["../images/Project 3 first half.png", "../images/Project 3 second half.png"]
+        "description": "Interactive Form",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://susanhart.github.io/Project-3/",
+        "github_link": "https://github.com/susanhart/Project-3",
+        "image_urls": ["../images/Project 3 first half.png", "../images/Project 3 second half.png"]
     },
     {
         "id": 3,
         "project_name": "Project 4",
-        "Description": "OOP Game App",
-        "Technologies": ["HTML", "CSS", "JavaScript"],
-        "Live_Link": "https://susanhart.github.io/Project-4/",
-        "GitHub_Link": "https://github.com/susanhart/Project-4",
-        "Image_urls": ["../images/Project 4 game page.png", "../images/Project 4 home page.png"]
+        "description": "OOP Game App",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://susanhart.github.io/Project-4/",
+        "github_link": "https://github.com/susanhart/Project-4",
+        "image_urls": ["../images/Project 4 game page.png", "../images/Project 4 home page.png"]
     },
     {
         "id": 4,
         "project_name": "Project 5",
-        "Description": "Public API Requests",
-        "Technologies": ["HTML", "CSS", "JavaScript"],
-        "Live_Link": "https://susanhart.github.io/Project-5/",
-        "GitHub_Link": "https://github.com/susanhart/Project-5",
-        "Image_urls": ["../images/Project 5 Directory.png", "../images/Project 5 modal pop-up.png"]
+        "description": "Public API Requests",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://susanhart.github.io/Project-5/",
+        "github_link": "https://github.com/susanhart/Project-5",
+        "image_urls": ["../images/Project 5 Directory.png", "../images/Project 5 modal pop-up.png"]
     }
 ]}
