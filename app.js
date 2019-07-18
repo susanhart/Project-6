@@ -1,7 +1,6 @@
 //Global variables for the dependencies
 const data = require("./data");
 const express = require("express");
-const data = require("./data");
 const { projects } = data;
 const app = express();
 
