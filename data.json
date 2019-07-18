@@ -6,7 +6,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://susanhart.github.io/Project-1/",
         "github_link": "https://github.com/susanhart/Project-1",
-        "image_urls": ["../images/Project 1-A.png", "../images/Project 1-B.png"]
+        "image_urls": ["/static/images/Project 1-A.png", "../images/Project 1-B.png"]
     },
     {
         "id": 1,
@@ -15,7 +15,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://susanhart.github.io/Project-2-/",
         "github_link": "https://github.com/susanhart/Project-2-",
-        "image_urls": ["../images/Project 2 first page.png", "../images/Project 2 last page.png"]
+        "image_urls": ["/static/images/Project 2 first page.png", "../images/Project 2 last page.png"]
     },
     {
         "id": 2,
@@ -24,7 +24,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://susanhart.github.io/Project-3/",
         "github_link": "https://github.com/susanhart/Project-3",
-        "image_urls": ["../images/Project 3 first half.png", "../images/Project 3 second half.png"]
+        "image_urls": ["/static/images/Project 3 first half.png", "../images/Project 3 second half.png"]
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://susanhart.github.io/Project-4/",
         "github_link": "https://github.com/susanhart/Project-4",
-        "image_urls": ["../images/Project 4 game page.png", "../images/Project 4 home page.png"]
+        "image_urls": ["/static/images/Project 4 game page.png", "../images/Project 4 home page.png"]
     },
     {
         "id": 4,
@@ -42,6 +42,6 @@
         "technologies": ["HTML", "CSS", "JavaScript"],
         "live_link": "https://susanhart.github.io/Project-5/",
         "github_link": "https://github.com/susanhart/Project-5",
-        "image_urls": ["../images/Project 5 Directory.png", "../images/Project 5 modal pop-up.png"]
+        "image_urls": ["/static/images/Project 5 Directory.png", "../images/Project 5 modal pop-up.png"]
     }
 ]}
