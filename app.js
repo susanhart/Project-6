@@ -1,7 +1,8 @@
 //Global variables for the dependencies
 const data = require("./data");
 const express = require("express");
-const projects = data.projects
+const data = require("./data");
+const { projects } = data;
 const app = express();
 
 //Setting up the middleware
@@ -14,7 +15,7 @@ app.use('/static', express.static('public'));
 //Setting the routes
 //An "index" route (/) to render the "Home" page with the locals set to data.projects
 app.get('/', (req, res) => {
-    res.render("index", { data: data.projects });
+    res.render("index", { projects });
 });
 
 //An "about" route (/about) to render the "About" page
