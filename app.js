@@ -23,13 +23,13 @@ app.get('/about', (req, res) => {
 });
 
 //Dynamic "project" routes (/project or /projects) based on the id of the project that render a customized version of the Pug project template to show off each project.
-app.get('/projects/:id', (req, res) => {
+app.get('/project/:id', (req, res) => {
     const {id} = req.params;
     const project = projects[id];
     if (isNaN(id) || id > projects.length) {
         return res.redirect('/');
     }
-    res.render('projects', {project});
+    res.render('project', {project});
 });
 
 //404 error handling when something is not found - a project that is not there
